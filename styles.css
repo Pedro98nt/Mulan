@@ -1,0 +1,1055 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+.footer {
+  bottom: 0;
+  color: white;
+  top: 35rem;
+  font-size: 2rem;
+}
+.footer .title {
+  font-family: 'Amatic SC';
+}
+.footer .sub {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+  font-family: 'Amatic SC';
+}
+.footer .sub a {
+  color: #f1c3e1;
+  text-decoration: none;
+}
+.footer .sub a:hover {
+  color: white;
+}
+
+body {
+  width: 99%;
+  height: 36rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 32rem;
+  background-color: #0f2112;
+  border-radius: 32rem;
+  overflow: hidden;
+  transform: scale(0.7);
+  height: 32rem;
+  border: 5px solid white;
+}
+
+.background {
+  position: absolute;
+}
+.background .soft_side {
+  height: 32rem;
+  width: 19rem;
+  left: -18rem;
+  position: absolute;
+  top: -16rem;
+  background-color: #f1c3e1;
+}
+.background .soft_side .cherry {
+  position: relative;
+  top: -50px;
+  width: 100%;
+  text-align: right;
+}
+.background .soft_side .cherry i {
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  background: linear-gradient(to bottom right, #309900, #005600);
+  transform: skew(20deg);
+  border-radius: 5% 40% 70%;
+  box-shadow: inset 0px 0px 1px #222;
+  border: 1px solid #333;
+  z-index: 1;
+  -webkit-animation: falling 5s 0s infinite;
+}
+.background .soft_side .cherry i:before {
+  position: absolute;
+  content: '';
+  top: 117px;
+  right: 9px;
+  height: 27px;
+  width: 32px;
+  transform: rotate(49deg);
+  border-radius: 0% 15% 15% 0%;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+  border-left: 0px solid #222;
+  border-right: 1px solid #222;
+  background: linear-gradient(to right, #e298d2, #e3aceb);
+  z-index: 1;
+}
+.background .soft_side .cherry i:after {
+  content: '';
+  height: 125px;
+  width: 10px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+  display: block;
+  transform: rotate(125deg);
+  position: absolute;
+  left: 85px;
+  border-radius: 50%;
+}
+.background .soft_side .cherry i:nth-of-type(n) {
+  height: 23px;
+  width: 30px;
+  -webkit-animation-delay: 1.9s;
+  -webkit-animation-timing-function: ease-in-out;
+  background: linear-gradient(to bottom right, #d592db, #e727ce);
+  opacity: .7;
+  transform: rotate(180deg);
+}
+.background .soft_side .cherry i:nth-of-type(n):before {
+  width: 7px;
+  height: 5px;
+  top: 17px;
+  right: 1px;
+}
+.background .soft_side .cherry i:nth-of-type(n):after {
+  width: 2px;
+  height: 17px;
+  left: 12px;
+  top: 0px;
+}
+.background .soft_side .cherry i:nth-of-type(2n+1) {
+  height: 11px;
+  width: 16px;
+}
+.background .soft_side .cherry i:nth-of-type(2n+1) :before {
+  width: 4px;
+  height: 3px;
+  top: 7px;
+  right: 0px;
+}
+.background .soft_side .cherry i:nth-of-type(2n+1) :after {
+  width: 2px;
+  height: 6px;
+  left: 5px;
+  top: 1px;
+}
+.background .soft_side .cherry i:nth-of-type(3n+2) {
+  height: 17px;
+  width: 23px;
+  opacity: .3;
+}
+.background .soft_side .cherry i:nth-of-type(3n+2):before {
+  height: 4px;
+  width: 4px;
+  top: 12px;
+  right: 1px;
+}
+.background .soft_side .cherry i:nth-of-type(3n+2):after {
+  height: 10px;
+  width: 2px;
+  top: 1px;
+  left: 8px;
+}
+.background .soft_side .cherry i:nth-of-type(2n) {
+  -webkit-animation-delay: 3.9s;
+  -webkit-animation: falling2 5s 0s infinite;
+}
+.background .soft_side .cherry i:nth-of-type(3n) {
+  -webkit-animation-delay: 2.3s;
+  -webkit-animation: falling3 5s 0s infinite;
+}
+.background .soft_side .cherry i:nth-of-type(4n) {
+  -webkit-animation-delay: 4.4s;
+}
+.background .soft_side .cherry i:nth-of-type(5n) {
+  -webkit-animation-delay: 5s;
+}
+.background .soft_side .cherry i:nth-of-type(6n) {
+  -webkit-animation-delay: 3.5s;
+}
+.background .soft_side .cherry i:nth-of-type(7n) {
+  -webkit-animation-delay: 2.8s;
+}
+.background .soft_side .cherry i:nth-of-type(8n) {
+  -webkit-animation-delay: 1.5s;
+}
+.background .soft_side .cherry i:nth-of-type(9n) {
+  -webkit-animation-delay: 3.3s;
+}
+.background .soft_side .cherry i:nth-of-type(10n) {
+  -webkit-animation-delay: 2.5s;
+}
+.background .soft_side .cherry i:nth-of-type(11n) {
+  -webkit-animation-delay: 1.2s;
+}
+.background .soft_side .cherry i:nth-of-type(12n) {
+  -webkit-animation-delay: 4.1s;
+}
+.background .soft_side .cherry i:nth-of-type(13n) {
+  -webkit-animation-delay: 1s;
+}
+.background .soft_side .cherry i:nth-of-type(14n) {
+  -webkit-animation-delay: 4.7s;
+}
+.background .soft_side .cherry i:nth-of-type(15n) {
+  -webkit-animation-delay: 3s;
+}
+.background .soft_side .cherry i:nth-of-type(2n+2) {
+  background: linear-gradient(to bottom right, #e4acd6, #bb88b4);
+}
+.background .soft_side .cherry i:nth-of-type(4n+1) {
+  background: linear-gradient(to bottom right, #da1cb1, #ee82dc);
+}
+.background .soft_side .cherry i:nth-of-type(3n+1) {
+  opacity: .5;
+}
+.background .dark_side {
+  height: 32rem;
+  width: 19rem;
+  left: 0rem;
+  position: absolute;
+  top: -16rem;
+  background-color: #a23333;
+}
+.background .dark_side .sparks {
+  position: relative;
+  top: 31rem;
+  width: 100%;
+  text-align: right;
+  transform: rotate(180deg);
+}
+.background .dark_side .sparks i {
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  background: linear-gradient(to bottom right, #292b28, #464646);
+  transform: skew(20deg);
+  border-radius: 5% 40% 70%;
+  box-shadow: inset 0px 0px 1px #222;
+  border: 1px solid #333;
+  z-index: 1;
+  -webkit-animation: falling 5s 5s infinite;
+}
+.background .dark_side .sparks i:before {
+  position: absolute;
+  content: '';
+  top: 117px;
+  right: 9px;
+  height: 10px;
+  width: 32px;
+  transform: rotate(49deg);
+  border-radius: 0% 15% 15% 0%;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+  border-left: 0px solid #222;
+  border-right: 1px solid #222;
+  background: linear-gradient(to right, #464646, #444444);
+  z-index: 1;
+}
+.background .dark_side .sparks i:after {
+  content: '';
+  height: 125px;
+  width: 10px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+  display: block;
+  transform: rotate(125deg);
+  position: absolute;
+  left: 85px;
+  border-radius: 50%;
+}
+.background .dark_side .sparks i:nth-of-type(n) {
+  -webkit-animation-delay: 1.9s;
+  -webkit-animation-timing-function: ease-in-out;
+  transform: rotate(180deg);
+  height: 10px;
+  width: 20px;
+  opacity: .7;
+}
+.background .dark_side .sparks i:nth-of-type(n):before {
+  width: 7px;
+  height: 5px;
+  top: 17px;
+  right: 1px;
+}
+.background .dark_side .sparks i:nth-of-type(n):after {
+  width: 2px;
+  height: 6px;
+  left: 12px;
+  top: 0px;
+}
+.background .dark_side .sparks i:nth-of-type(2n+1) {
+  height: 11px;
+  width: 16px;
+}
+.background .dark_side .sparks i:nth-of-type(2n+1):before {
+  width: 4px;
+  height: 3px;
+  top: 7px;
+  right: 0px;
+}
+.background .dark_side .sparks i:nth-of-type(2n+1):after {
+  width: 2px;
+  height: 6px;
+  left: 5px;
+  top: 1px;
+}
+.background .dark_side .sparks i:nth-of-type(3n+2) {
+  height: 17px;
+  width: 23px;
+}
+.background .dark_side .sparks i:nth-of-type(3n+2):before {
+  height: 4px;
+  width: 4px;
+  top: 12px;
+  right: 1px;
+}
+.background .dark_side .sparks i:nth-of-type(3n+2):after {
+  height: 10px;
+  width: 2px;
+  top: 1px;
+  left: 8px;
+}
+.background .dark_side .sparks i:nth-of-type(2n) {
+  -webkit-animation: falling2 8s 0s infinite;
+  -webkit-animation-delay: 3.9s;
+}
+.background .dark_side .sparks i:nth-of-type(3n) {
+  -webkit-animation-delay: 2.3s;
+  -webkit-animation: falling3 5s 0s infinite;
+}
+.background .dark_side .sparks i:nth-of-type(4n) {
+  -webkit-animation-delay: 4.4s;
+}
+.background .dark_side .sparks i:nth-of-type(5n) {
+  -webkit-animation-delay: 5s;
+}
+.background .dark_side .sparks i:nth-of-type(6n) {
+  -webkit-animation-delay: 3.5s;
+}
+.background .dark_side .sparks i:nth-of-type(7n) {
+  -webkit-animation-delay: 2.8s;
+}
+.background .dark_side .sparks i:nth-of-type(8n) {
+  -webkit-animation-delay: 1.5s;
+}
+.background .dark_side .sparks i:nth-of-type(9n) {
+  -webkit-animation-delay: 3.3s;
+}
+.background .dark_side .sparks i:nth-of-type(10n) {
+  -webkit-animation-delay: 2.5s;
+}
+.background .dark_side .sparks i:nth-of-type(11n) {
+  -webkit-animation-delay: 1.2s;
+}
+.background .dark_side .sparks i:nth-of-type(12n) {
+  -webkit-animation-delay: 4.1s;
+}
+.background .dark_side .sparks i:nth-of-type(13n) {
+  -webkit-animation-delay: 1s;
+}
+.background .dark_side .sparks i:nth-of-type(14n) {
+  -webkit-animation-delay: 4.7s;
+}
+.background .dark_side .sparks i:nth-of-type(15n) {
+  -webkit-animation-delay: 3s;
+}
+.background .dark_side .sparks i:nth-of-type(2n+2) {
+  background: linear-gradient(to bottom right, #312d2d, #131313);
+}
+.background .dark_side .sparks i:nth-of-type(4n+1) {
+  background: linear-gradient(to bottom right, #5f5f5f, #2e2e2e);
+}
+.background .dark_side .sparks i:nth-of-type(3n+2) {
+  opacity: .3;
+}
+
+@-webkit-keyframes falling {
+  0% {
+    -webkit-transform: translate3d(300, 0, 0) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate3d(-350px, 700px, 0) rotate(90deg);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes falling3 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) rotate(-20deg);
+  }
+  100% {
+    -webkit-transform: translate3d(-230px, 640px, 0) rotate(-70deg);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes falling2 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) rotate(90deg);
+  }
+  100% {
+    -webkit-transform: translate3d(-400px, 680px, 0) rotate(0deg);
+    opacity: 0;
+  }
+}
+.mulan {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sword {
+  z-index: 20;
+}
+.sword_left {
+  background-color: #5684b2;
+  position: absolute;
+  height: 22.7rem;
+  width: 1.2rem;
+  left: 0;
+  top: -15.6rem;
+  box-shadow: -1rem 0rem #d1dfea;
+}
+.sword_left:after {
+  content: '';
+  width: 3rem;
+  height: 2rem;
+  background-color: #a23333;
+  position: absolute;
+  transform: rotate(54deg);
+  top: -0.5rem;
+}
+.sword_left:before {
+  content: '';
+  width: 3rem;
+  height: 2rem;
+  background-color: #f1c3e1;
+  position: absolute;
+  transform: rotate(-54deg);
+  top: -0.5rem;
+  left: -2.7rem;
+}
+.sword_base_circle {
+  position: absolute;
+  width: 2.2rem;
+  height: 0;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 1.8rem solid #fcb81e;
+  left: -2rem;
+  top: 6rem;
+}
+.sword_base_triangle {
+  position: absolute;
+  width: 1.5rem;
+  height: 0;
+  border-left: 2rem solid transparent;
+  border-right: 2rem solid transparent;
+  border-bottom: 1.8rem solid #fcb81e;
+  left: -2.6rem;
+  top: 7.1rem;
+  transform: rotate(180deg);
+  filter: drop-shadow(-5px 0px 0px #d29919);
+}
+.sword_base_cabe {
+  position: absolute;
+  width: 1.5rem;
+  height: 0;
+  border-bottom: 1.8rem solid #fcb81e;
+  left: -0.6rem;
+  top: 8.9rem;
+  transform: rotate(180deg);
+  filter: drop-shadow(-5px 0px 0px #d29919);
+}
+
+.mulan_soldier .face {
+  z-index: 5;
+}
+.mulan_soldier .face_bottom {
+  position: absolute;
+  background-color: #ebcaab;
+  width: 5.2rem;
+  height: 6rem;
+  border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+  left: 0.9rem;
+  top: -1.9rem;
+  transform: rotate(5deg);
+  box-shadow: inset -2px -7px #caa786;
+}
+.mulan_soldier .face_up {
+  position: absolute;
+  background-color: #ebcaab;
+  height: 8.2rem;
+  border-radius: 72% 100% 100% 0% / 30% 100% 0% 100%;
+  top: -10rem;
+  transform: rotate(8deg);
+  left: -0.3rem;
+  width: 7.2rem;
+  box-shadow: inset -1px 20px black;
+}
+.mulan_soldier .hair .hair_side {
+  position: absolute;
+  top: -10.7rem;
+  width: 10.3rem;
+  height: 12.8rem;
+  background-color: #000000;
+  border-radius: 5rem 5rem 6rem 0;
+  left: -3.1rem;
+  box-shadow: inset -2px 0px #92833c;
+}
+.mulan_soldier .hair .hair_side:after {
+  content: '';
+  width: 8rem;
+  height: 7rem;
+  background-color: black;
+  position: absolute;
+  left: 1.1rem;
+  box-shadow: inset 1px 1px #92833c;
+  top: 0rem;
+  border-radius: 11rem;
+}
+.mulan_soldier .hair .hair_top {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  background-color: black;
+  top: -13.3rem;
+  border-radius: 2rem 3rem;
+  box-shadow: inset -1px 1px #92833c;
+}
+.mulan_soldier .ear {
+  width: 2rem;
+  height: 3.6rem;
+  position: absolute;
+  background-color: #caa786;
+  border-radius: 3rem 1rem 2rem 2rem;
+  transform: rotate(207deg);
+  top: -3rem;
+  left: 6.2rem;
+  box-shadow: inset 2px -1px #ebcaab;
+}
+.mulan_soldier .eye_base {
+  position: absolute;
+  width: 3rem;
+  height: 3.2rem;
+  background-color: #fdffff;
+  border-radius: 71% 29% 100% 0% / 100% 32% 68% 0%;
+  -webkit-border-radius: 71% 29% 100% 0% / 100% 32% 68% 0%;
+  left: 2.1rem;
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  top: -3.1rem;
+  -webkit-box-shadow: inset -5px 7px black;
+  box-shadow: inset -5px 7px black;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.mulan_soldier .eye_base .inside {
+  width: 2.3rem;
+  height: 2.3rem;
+  background-color: black;
+  top: 0.7rem;
+  position: absolute;
+  border-radius: 2rem;
+}
+.mulan_soldier .eye_base .inside:after {
+  content: '';
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: #fff;
+  position: absolute;
+  top: 1rem;
+  border-radius: 1rem;
+  left: 0.4rem;
+}
+.mulan_soldier .eye_shadow {
+  position: absolute;
+  width: 3rem;
+  height: 3.7rem;
+  background-color: black;
+  border-radius: 100% 0% 100% 0% / 100% 22% 78% 0%;
+  left: 2rem;
+  transform: rotate(25deg);
+  top: -3.7rem;
+}
+.mulan_soldier .eye_make {
+  position: absolute;
+  width: 3rem;
+  height: 4rem;
+  background-color: black;
+  border-radius: 100% 0% 100% 0% / 100% 22% 78% 0%;
+  left: 2.4rem;
+  transform: rotate(25deg);
+  top: -3.7rem;
+}
+.mulan_soldier .eyebrow {
+  width: 4.3rem;
+  height: 4rem;
+  display: inline-block;
+  position: absolute;
+  margin: 5px;
+  border-top-right-radius: 13%;
+  background: radial-gradient(farthest-side at top left, transparent 98%, transparent 100%) 100% 67%/79px 34% no-repeat, radial-gradient(108% 64% at bottom right, #ebcaab 123%, transparent 100%), radial-gradient(104% 100% at bottom right, #000 99%, transparent 100%);
+  top: -6rem;
+  left: 1rem;
+}
+.mulan_soldier .eyebrow:after {
+  content: '';
+  width: 68px;
+  height: 35px;
+  border: solid 0.5rem transparent;
+  border-color: #ebcaab transparent transparent transparent;
+  border-radius: 92%/100% 149% 0 0;
+  transform: rotate(6.1deg);
+  top: 0.15rem;
+  z-index: 999;
+  left: 0.3rem;
+  position: absolute;
+}
+.mulan_soldier .eyebrow:before {
+  content: '';
+  width: 1.3rem;
+  height: 1rem;
+  background-color: #ebcaab;
+  position: absolute;
+  left: 3rem;
+  top: -0.4rem;
+}
+
+.mulan_soldier .neck {
+  width: 2rem;
+  height: 2rem;
+  background-color: #caa786;
+  position: absolute;
+  top: 3.6rem;
+  left: -0.4rem;
+  z-index: 15;
+}
+.mulan_soldier .collar_before {
+  width: 2rem;
+  height: 2rem;
+  background-color: #1a4434;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 3.8rem;
+  left: 0rem;
+  border-radius: 2rem 0rem 0 0;
+}
+.mulan_soldier .collar_aux {
+  width: 2rem;
+  height: 2rem;
+  background-color: #1a4434;
+  transform: rotate(-3deg);
+  position: absolute;
+  top: 5.1rem;
+  left: 1.2rem;
+  border-radius: 67% 33% 100% 0% / 86% 0% 100% 14%;
+}
+.mulan_soldier .collar {
+  width: 2rem;
+  height: 2rem;
+  background-color: #20805d;
+  position: absolute;
+  border-radius: 98% 2% 100% 0% / 50% 0% 100% 50%;
+  top: 4.8rem;
+  left: 0.5rem;
+  box-shadow: inset -6px 4px #1a4434;
+  z-index: 17;
+}
+.mulan_soldier .shoulder {
+  width: 5rem;
+  height: 2rem;
+  position: absolute;
+  background-color: #1c5540;
+  top: 5.5rem;
+  left: 1rem;
+  border-radius: 1rem 0.5rem;
+  box-shadow: inset -3px -3px black;
+}
+.mulan_soldier .body {
+  width: 3.9rem;
+  height: 5rem;
+  background-color: #206049;
+  position: absolute;
+  top: 7rem;
+  border-radius: 1rem 2rem 2rem 0;
+  box-shadow: 3px -1px black;
+}
+.mulan_soldier .body:after {
+  content: '';
+  width: 2rem;
+  height: 2rem;
+  background-color: #206049;
+  position: absolute;
+  top: 1.5rem;
+  z-index: 8;
+}
+.mulan_soldier .arm {
+  width: 2.5rem;
+  height: 5.8rem;
+  position: absolute;
+  background-color: #206049;
+  left: 3.6rem;
+  top: 7rem;
+  transform: rotate(-14deg);
+  border-radius: 1rem 1rem 2rem 1rem;
+  box-shadow: 3px 1px black;
+}
+.mulan_soldier .fist {
+  z-index: 5;
+  border-bottom: 2.8rem solid #206049;
+  border-left: 0.8rem solid transparent;
+  border-right: 0.2rem solid transparent;
+  width: 1.5rem;
+  position: absolute;
+  transform: rotate(-111deg);
+  top: 10.8rem;
+  left: 1.8rem;
+  filter: drop-shadow(2px 5px 0px black);
+}
+.mulan_soldier .aux {
+  z-index: 99;
+  border-bottom: 2.1rem solid #000000;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.4rem solid transparent;
+  width: 1.6rem;
+  position: absolute;
+  transform: rotate(-108deg);
+  top: 11rem;
+  left: 1.7rem;
+  overflow: hidden;
+}
+.mulan_soldier .hand {
+  width: 2.5rem;
+  height: 2.3rem;
+  border-radius: 61% 1% 85% 15% / 46% 100% 0% 54%;
+  background-color: #206049;
+  position: absolute;
+  z-index: 5;
+  top: 11.2rem;
+  transform: rotate(-95deg);
+  left: -0.2rem;
+  box-shadow: 0px -3px black;
+}
+.mulan_soldier .hand2 {
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 61% 39% 85% 15% / 46% 100% 0% 54%;
+  background-color: #ebcaab;
+  position: absolute;
+  z-index: 5;
+  top: 11.2rem;
+  transform: rotate(-75deg);
+  left: -0.8rem;
+  box-shadow: 0px -3px black;
+}
+
+.mulan_original .hair .fringe {
+  width: 8.6rem;
+  height: 6.3rem;
+  background-color: black;
+  position: absolute;
+  left: -7.8rem;
+  top: -10.5rem;
+  border-radius: 62% 38% 100% 0% / 100% 0% 100% 0%;
+  transform: rotate(-4deg);
+  box-shadow: 0px -3px #f9ffff;
+  z-index: 9;
+}
+.mulan_original .hair .fringe_extension {
+  width: 6rem;
+  height: 9.1rem;
+  top: -10.6rem;
+  left: -19.1rem;
+  border-radius: 100% 0% 100% 0% / 100% 48% 52% 0%;
+  box-shadow: -5px 34px 0 0 black;
+  transform: skew(-58deg, 54deg) rotate(-128deg) scale(-1, 1);
+  position: absolute;
+  filter: drop-shadow(1px -2px 0px #f9ffff);
+  z-index: 10;
+}
+.mulan_original .hair .fringe_back {
+  width: 10.8rem;
+  height: 9.8rem;
+  background-color: black;
+  border-radius: 98% 2% 100% 0% / 0% 0% 100% 100%;
+  position: absolute;
+  left: -12.5rem;
+  transform: rotate(58deg);
+  top: -1.4rem;
+  box-shadow: 1px 4px #225a92;
+}
+.mulan_original .hair .fringe_aux {
+  width: 8rem;
+  height: 4rem;
+  content: '';
+  background-color: #000000;
+  position: absolute;
+  border-radius: 98% 2% 100% 0% / 87% 0% 100% 13%;
+  top: -6.8rem;
+  left: -8.2rem;
+  z-index: 15;
+  transform: rotate(-15deg);
+  box-shadow: 11px 0px #caa786;
+}
+.mulan_original .face {
+  transform: scale(-1, 1);
+}
+.mulan_original .face_bottom {
+  position: absolute;
+  background-color: #ebcaab;
+  width: 5.2rem;
+  height: 6rem;
+  border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+  left: 0.9rem;
+  top: -2.6rem;
+  transform: rotate(-20deg) skew(-24deg, 14deg);
+  box-shadow: inset 1px -4px #caa786;
+}
+.mulan_original .face_up {
+  z-index: 3;
+  position: absolute;
+  background-color: #ebcaab;
+  height: 8.2rem;
+  border-radius: 72% 100% 100% 0% / 30% 100% 0% 100%;
+  top: -10rem;
+  transform: rotate(8deg);
+  left: -0.3rem;
+  width: 7rem;
+}
+.mulan_original .eye {
+  position: absolute;
+  left: 0.4rem;
+  transform: scale(-1, 1);
+}
+.mulan_original .eye_base {
+  position: absolute;
+  width: 3rem;
+  height: 3.2rem;
+  background-color: #fdffff;
+  border-radius: 71% 29% 100% 0% / 100% 32% 68% 0%;
+  -webkit-border-radius: 71% 29% 100% 0% / 100% 32% 68% 0%;
+  left: 2.1rem;
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  top: -3.1rem;
+  -webkit-box-shadow: inset -5px 7px black;
+  box-shadow: inset -5px 7px black;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.mulan_original .eye_base .inside {
+  width: 2.3rem;
+  height: 2.3rem;
+  background-color: black;
+  top: 0.7rem;
+  position: absolute;
+  border-radius: 2rem;
+}
+.mulan_original .eye_base .inside:after {
+  content: '';
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: #fff;
+  position: absolute;
+  top: 1rem;
+  border-radius: 1rem;
+  left: 0.4rem;
+}
+.mulan_original .eye_shadow {
+  position: absolute;
+  width: 3rem;
+  height: 3.7rem;
+  background-color: black;
+  border-radius: 100% 0% 100% 0% / 100% 22% 78% 0%;
+  left: 2rem;
+  transform: rotate(25deg);
+  top: -3.7rem;
+}
+.mulan_original .eye_make {
+  position: absolute;
+  width: 3rem;
+  height: 4rem;
+  background-color: black;
+  border-radius: 100% 0% 100% 0% / 100% 22% 78% 0%;
+  left: 2.4rem;
+  transform: rotate(25deg);
+  top: -3.7rem;
+}
+.mulan_original .eyebrow {
+  width: 4.3rem;
+  height: 4rem;
+  display: inline-block;
+  position: absolute;
+  margin: 5px;
+  border-top-right-radius: 13%;
+  background: radial-gradient(farthest-side at top left, transparent 98%, transparent 100%) 100% 67%/79px 34% no-repeat, radial-gradient(108% 64% at bottom right, #ebcaab 123%, transparent 100%), radial-gradient(104% 100% at bottom right, #000 99%, transparent 100%);
+  top: -6rem;
+  left: -6rem;
+  transform: scale(-1, 1);
+}
+.mulan_original .eyebrow:after {
+  content: '';
+  width: 68px;
+  height: 35px;
+  border: solid 0.5rem transparent;
+  border-color: #ebcaab transparent transparent transparent;
+  border-radius: 92%/100% 149% 0 0;
+  transform: rotate(6.1deg);
+  top: 0.15rem;
+  z-index: 999;
+  left: 0.3rem;
+  position: absolute;
+}
+.mulan_original .eyebrow:before {
+  content: '';
+  width: 2.3rem;
+  height: 3rem;
+  background-color: #ebcaab;
+  position: absolute;
+  left: 0rem;
+  top: 3rem;
+}
+.mulan_original .ear {
+  width: 2rem;
+  position: absolute;
+  height: 3rem;
+  background-color: #caa786;
+  left: -7.5rem;
+  border-radius: 98% 2% 51% 49% / 75% 0% 100% 25%;
+  transform: rotate(-51deg);
+  top: -2.7rem;
+}
+.mulan_original .neck {
+  width: 2rem;
+  height: 2rem;
+  background-color: #ebcaab;
+  position: absolute;
+  top: 3.6rem;
+  left: -1.25rem;
+  z-index: 15;
+}
+.mulan_original .neck:after {
+  content: '';
+  width: 2rem;
+  height: 3rem;
+  background-color: #ebcaab;
+  position: absolute;
+  border-radius: 98% 2% 0% 100% / 0% 100% 0% 100%;
+  top: 1.3rem;
+  left: -0.1rem;
+  transform: rotate(-19deg);
+}
+.mulan_original .clothes {
+  width: 3.5rem;
+  height: 4.6rem;
+  background-color: #8ebf64;
+  position: absolute;
+  left: -2.3rem;
+  top: 5.05rem;
+  border-radius: 98% 2% 33% 67% / 0% 100% 0% 100%;
+  transform: rotate(-13deg);
+  box-shadow: -3px -1px black;
+}
+.mulan_original .body {
+  width: 4rem;
+  height: 4.4rem;
+  background-color: #8ebf64;
+  position: absolute;
+  left: -3.6rem;
+  top: 7.2rem;
+  border-radius: 2rem 0 0rem 0rem;
+  box-shadow: -5px 2px black;
+}
+.mulan_original .body:after {
+  content: '';
+  width: 3rem;
+  height: 2rem;
+  background-color: #0a2b45;
+  position: absolute;
+  top: 2.8rem;
+}
+.mulan_original .shoulder {
+  width: 3rem;
+  height: 5rem;
+  background-color: #8ebf64;
+  position: absolute;
+  border-radius: 2rem 0rem 0 0;
+  left: -5.5rem;
+  top: 5.5rem;
+  transform: rotate(17deg);
+  box-shadow: -2px -1px black;
+}
+.mulan_original .sleeve {
+  width: 3.2rem;
+  height: 3rem;
+  position: absolute;
+  background-color: #8ebf64;
+  border-radius: 98% 2% 67% 33% / 28% 100% 0% 72%;
+  left: -6.7rem;
+  top: 9.5rem;
+  transform: scale(1, -1) rotate(-3deg);
+  box-shadow: -4px 1px black;
+  z-index: 5;
+}
+.mulan_original .sleeve:after {
+  transform: skew(-12deg, -17deg);
+  content: '';
+  width: 2.4rem;
+  height: 3rem;
+  background-color: #367e59;
+  position: absolute;
+  border-radius: 2rem;
+  left: 1.7rem;
+}
+.mulan_original .hand {
+  z-index: 8;
+  border-bottom: 2.8rem solid #ebcaab;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.1rem solid transparent;
+  width: 1.4rem;
+  position: absolute;
+  transform: rotate(-111deg) scale(-1);
+  top: 9.2rem;
+  left: -3.6rem;
+  filter: drop-shadow(2px -1px 0px black);
+}
+.mulan_original .hand2 {
+  width: 2.6rem;
+  height: 2.4rem;
+  background-color: #ebcaab;
+  position: absolute;
+  border-radius: 76% 24% 67% 33% / 28% 65% 35% 72%;
+  top: 8.9rem;
+  left: -1.5rem;
+  z-index: 80;
+  box-shadow: 3px 1px black;
+}
+.mulan_original .waist {
+  width: 3.6rem;
+  height: 1.2rem;
+  position: absolute;
+  background-color: #a83a47;
+  top: 12.1rem;
+  left: -2.6rem;
+  border-radius: 100% 0% 100% 0% / 0% 40% 60% 100%;
+  transform: rotate(10deg);
+}
+.mulan_original .pants {
+  border-bottom: 70px solid #000000;
+  border-left: 31px solid transparent;
+  border-right: 30.5px solid transparent;
+  height: 0;
+  width: 5rem;
+  position: absolute;
+  top: 12rem;
+  left: -4.2rem;
+  filter: drop-shadow(3px 4px 0px #92833c);
+}
